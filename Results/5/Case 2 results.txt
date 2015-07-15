@@ -1,0 +1,87 @@
+Case 2 results
+
+The image is placed in cache as NSData and cache has evictsObjectsWithDiscardedContent flag is set to false.
+
+n = 5
+
+Will fill cache: Test Cache
+Cached image data with key: Cached_Image_№ 1
+Cached image data with key: Cached_Image_№ 2
+Cached image data with key: Cached_Image_№ 3
+Cached image data with key: Cached_Image_№ 4
+Cached image data with key: Cached_Image_№ 5
+Did fill cache: Test Cache
+
+
+Did become active
+
+Will check cache: Test Cache
+There IS a cached data with key: Cached_Image_№ 1 and size: 1867.7021484375
+There IS a cached data with key: Cached_Image_№ 2 and size: 1867.7021484375
+There IS a cached data with key: Cached_Image_№ 3 and size: 1867.7021484375
+There IS a cached data with key: Cached_Image_№ 4 and size: 1867.7021484375
+There IS a cached data with key: Cached_Image_№ 5 and size: 1867.7021484375
+Did check cache: Test Cache
+
+2015-06-28 20:00:43.450 NSCacheTest[15502:1516497] Received memory warning.
+
+didReceiveMemoryWarning
+
+Will check cache: Test Cache
+There IS a cached data with key: Cached_Image_№ 1 and size: 1867.7021484375
+There IS a cached data with key: Cached_Image_№ 2 and size: 1867.7021484375
+There IS a cached data with key: Cached_Image_№ 3 and size: 1867.7021484375
+There IS a cached data with key: Cached_Image_№ 4 and size: 1867.7021484375
+There IS a cached data with key: Cached_Image_№ 5 and size: 1867.7021484375
+Did check cache: Test Cache
+
+2015-06-28 20:00:47.997 NSCacheTest[15502:1516497] Received memory warning.
+
+didReceiveMemoryWarning
+
+Will check cache: Test Cache
+There IS a cached data with key: Cached_Image_№ 1 and size: 1867.7021484375
+There IS a cached data with key: Cached_Image_№ 2 and size: 1867.7021484375
+There IS a cached data with key: Cached_Image_№ 3 and size: 1867.7021484375
+There IS a cached data with key: Cached_Image_№ 4 and size: 1867.7021484375
+There IS a cached data with key: Cached_Image_№ 5 and size: 1867.7021484375
+Did check cache: Test Cache
+
+Cache: Test Cache willEvictObject
+Cache: Test Cache willEvictObject
+Cache: Test Cache willEvictObject
+Cache: Test Cache willEvictObject
+Cache: Test Cache willEvictObject
+
+Did enter background
+
+Will check cache: Test Cache
+There is NO cached data with key: Cached_Image_№ 1
+There is NO cached data with key: Cached_Image_№ 2
+There is NO cached data with key: Cached_Image_№ 3
+There is NO cached data with key: Cached_Image_№ 4
+There is NO cached data with key: Cached_Image_№ 5
+Did check cache: Test Cache
+
+
+Did become active
+
+Will check cache: Test Cache
+There is NO cached data with key: Cached_Image_№ 1
+There is NO cached data with key: Cached_Image_№ 2
+There is NO cached data with key: Cached_Image_№ 3
+There is NO cached data with key: Cached_Image_№ 4
+There is NO cached data with key: Cached_Image_№ 5
+Did check cache: Test Cache
+
+2015-06-28 20:00:52.063 NSCacheTest[15502:1516497] Received memory warning.
+
+didReceiveMemoryWarning
+
+Will check cache: Test Cache
+There is NO cached data with key: Cached_Image_№ 1
+There is NO cached data with key: Cached_Image_№ 2
+There is NO cached data with key: Cached_Image_№ 3
+There is NO cached data with key: Cached_Image_№ 4
+There is NO cached data with key: Cached_Image_№ 5
+Did check cache: Test Cache

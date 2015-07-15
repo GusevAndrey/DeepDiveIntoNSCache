@@ -1,0 +1,76 @@
+Case 5 results
+
+The image is placed in cache as NSPurgeableData with explicitly discarded content (content is discarded right after putting in cache) and cache has evictsObjectsWithDiscardedContent flag is set to true.
+
+n = 5
+
+Will fill cache: Test Cache
+Cached image data with key: Cached_Image_№ 1
+Cached image data with key: Cached_Image_№ 2
+Cached image data with key: Cached_Image_№ 3
+Cached image data with key: Cached_Image_№ 4
+Cached image data with key: Cached_Image_№ 5
+Did fill cache: Test Cache
+
+
+Did become active
+
+Will check cache: Test Cache
+Cache: Test Cache willEvictObject
+There is NO cached data with key: Cached_Image_№ 1
+Cache: Test Cache willEvictObject
+There is NO cached data with key: Cached_Image_№ 2
+Cache: Test Cache willEvictObject
+There is NO cached data with key: Cached_Image_№ 3
+Cache: Test Cache willEvictObject
+There is NO cached data with key: Cached_Image_№ 4
+Cache: Test Cache willEvictObject
+There is NO cached data with key: Cached_Image_№ 5
+Did check cache: Test Cache
+
+2015-06-28 19:44:12.046 NSCacheTest[15041:1505597] Received memory warning.
+
+didReceiveMemoryWarning
+
+Will check cache: Test Cache
+There is NO cached data with key: Cached_Image_№ 1
+There is NO cached data with key: Cached_Image_№ 2
+There is NO cached data with key: Cached_Image_№ 3
+There is NO cached data with key: Cached_Image_№ 4
+There is NO cached data with key: Cached_Image_№ 5
+Did check cache: Test Cache
+
+2015-06-28 19:44:12.682 NSCacheTest[15041:1505597] Received memory warning.
+
+didReceiveMemoryWarning
+
+Will check cache: Test Cache
+There is NO cached data with key: Cached_Image_№ 1
+There is NO cached data with key: Cached_Image_№ 2
+There is NO cached data with key: Cached_Image_№ 3
+There is NO cached data with key: Cached_Image_№ 4
+There is NO cached data with key: Cached_Image_№ 5
+Did check cache: Test Cache
+
+
+Did enter background
+
+Will check cache: Test Cache
+There is NO cached data with key: Cached_Image_№ 1
+There is NO cached data with key: Cached_Image_№ 2
+There is NO cached data with key: Cached_Image_№ 3
+There is NO cached data with key: Cached_Image_№ 4
+There is NO cached data with key: Cached_Image_№ 5
+Did check cache: Test Cache
+
+
+Did become active
+
+Will check cache: Test Cache
+There is NO cached data with key: Cached_Image_№ 1
+There is NO cached data with key: Cached_Image_№ 2
+There is NO cached data with key: Cached_Image_№ 3
+There is NO cached data with key: Cached_Image_№ 4
+There is NO cached data with key: Cached_Image_№ 5
+Did check cache: Test Cache
+
